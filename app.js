@@ -1,7 +1,6 @@
 let list = document.getElementById("list");
-let tasks = [];
-let taskName = String(document.getElementById("taskName"))
 
-function AddTask(taskName) {
-    
+document.querySelector("#addTask").onclick = function() {
+    let taskName = document.getElementById("taskName").value;
+    document.createElement("li", taskName);
 }
