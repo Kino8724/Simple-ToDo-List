@@ -16,4 +16,9 @@ document.querySelector("#addTask").onclick = function() {
     ul.appendChild(li);
 }
 
-document.querySelector("#removeTask")
+// Will listen for a click of a remove buttons
+// When clicked target the item and remove it from the list
+// ul.removeChild method will probably be what to use
+document.querySelector(".removeTask").onclick = function() {
+    
+}
