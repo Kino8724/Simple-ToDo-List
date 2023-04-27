@@ -8,6 +8,7 @@ document.querySelector("#addTask").onclick = function() {
     let div = document.createElement("div");
     let span = document.createElement("span");
     let button = document.createElement("button");
+    button.className = "removeTask";
     span.appendChild(document.createTextNode(taskName));
     button.appendChild(document.createTextNode("REMOVE"));
     div.appendChild(span);
